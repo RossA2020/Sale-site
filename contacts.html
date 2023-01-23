@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style/image.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/contacts.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.JPG" alt="Логотип">
+            <div class="shop_name">
+                <strong>Магазин телефонів та аксесуарів"WILL.ka"</strong>
+            </div>
+            <ul class="menu">
+                <li class="root"><a href="index.html">Головна</a></li>
+                <li class="root">
+                    <a href="catalog.html">Каталог</a>
+                    <ul class="dropdown">
+                        <li><a href="catalog/karkasson.html">Каркассон</a></li>
+                        <li><a href="catalog/machi-koro.html">Мачи-Кро</a></li>
+                        <li><a href="catalog/manchkin.html">Манчкин</a></li>
+                    </ul>
+                </li>
+                <li class="root"><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </div>
+        <hr>
+
+        <fieldset>
+            <legend>Запитайте у нас</legend>
+            <form action="contacts.html" method="post" class="contact_form">
+                <label for="username">Ваше ім'я</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+                <label for="subject">Що Вас цікавить?</label>
+                <input type="text" id="subject" name="subject"><br>
+                <label for="game">Назва телефона/аксесуара</label>
+                <input type="text" id="game" name="game"><br>
+
+                <textarea name="letter" id="letterBody" placeholder="Напишіть тут Ваше запитання\пропозицію"></textarea><br>
+
+                <input type="submit" value="Відправити">
+            </form>
+        </fieldset>
+        <h2>Наші контактні дані</h2>
+        <p>
+            <strong>Адреса: </strong>Україна м.Київ 02000<br>
+            <strong>Телефон: </strong> +38 (044) 254 65 84 <br>
+            <strong>Email: </strong>Willka@shop.com <br>
+        </p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5083.088532021247!2d30.542277345466168!3d50.43096213483512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0f328a4c17%3A0x78886d28e61100cf!2z0JrQuNC10LLRgdC60LjQuSDQvdCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDRgtC10YXQvdC-0LvQvtCz0LjQuSDQuCDQtNC40LfQsNC50L3QsA!5e0!3m2!1sru!2sua!4v1666165476388!5m2!1sru!2sua" width="1170" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <hr>
+    </div>
+</body>
+
+</html>
